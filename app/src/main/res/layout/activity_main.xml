@@ -7,20 +7,16 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/mainView"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:text="MediaPlayer"/>
-
-    <TextView
         android:id="@+id/tv1"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="mp3"/>
+        android:text="mp3" />
     <VideoView
         android:id="@+id/vv1"
-        android:layout_height="100dp"
-        android:layout_width="100dp"/>
+        android:layout_height="30dp"
+        android:layout_width="50dp"
+        android:background="#FF6600"
+        />
 
     <TextView
         android:id="@+id/firstView"

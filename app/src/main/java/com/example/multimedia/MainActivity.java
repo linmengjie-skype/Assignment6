@@ -35,7 +35,9 @@ public class MainActivity extends AppCompatActivity {
         controller.setMediaPlayer(videoview);
         videoview.setMediaController(controller);
 
-        String frameVideo = "<html><body>video from Youtube<br><iframe width=\"300\" height=\"200\" src=\"https://www.youtube.com/embed/6uUsfU6PGp0\" frameborder=\"0\" ></iframe></body></html>";
+        String frameVideo = "<html><body>video from Youtube<br>" +
+                "<iframe width=\"300\" height=\"200\" src=\"https://www.youtube.com/embed/6uUsfU6PGp0\"" +
+                "" + " frameborder=\"0\" ></iframe></body></html>";
         WebView myWebView = (WebView) findViewById(R.id.webview);
         WebSettings webSettings = myWebView.getSettings();
         webSettings.setJavaScriptEnabled(true);
